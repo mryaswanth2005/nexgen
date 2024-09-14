@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NeXgen Softwares - The Next Generation Softwares</title>
+    <link rel="shortcut icon" href="11zon_cropped.png" type="image/x-icon">
+    <style>
+      /* Reset default margins and paddings */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      /* Fullscreen layout */
+      body, html {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #070707;
+        font-family: Arial, sans-serif;
+      }
+
+      /* Centered loading text */
+      .loading-text {
+        font-size: 2rem;
+        font-weight: bold;
+        color: #ffffff;
+        text-align: center;
+        animation: fadeIn 2s ease-in-out infinite alternate;
+      }
+
+      /* Fade-in animation */
+      @keyframes fadeIn {
+        from {
+          opacity: 0.5;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+    </style>
+    <script>
+      // Wait for 2 seconds and then redirect
+      setTimeout(function() {
+        window.location.href = "main.html"; // Replace with your desired URL
+      }, 5000);
+    </script>
+  </head>
+  <body>
+    <div class="loading-text">NeXgen Softwares</div>
+  </body>
+</html>
+
